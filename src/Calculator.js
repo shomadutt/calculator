@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Calculator.css";
+import "./App.css";
 
 const calculator = ({children}) => {
     return (

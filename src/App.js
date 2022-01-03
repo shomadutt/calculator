@@ -1,6 +1,6 @@
-import Calculator from "./components/Calculator";
-import Screen from "./components/Screen";
-import Button from "./components/Button";
+import Calculator from "./Calculator";
+import Screen from "./Screen";
+import Button from "./Button";
 
 function App() {
   return (
@@ -26,6 +26,8 @@ function App() {
       <Button></Button>
       <Button></Button>
       <Button></Button>
+
+      <div id="clear"></div>
     </Calculator>
   );
 }
