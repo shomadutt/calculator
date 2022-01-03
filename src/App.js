@@ -1,16 +1,32 @@
-
-import './App.css';
-import Calculator from './components/Calculator';
-import Screen from './components/Screen'
+import Calculator from "./components/Calculator";
+import Screen from "./components/Screen";
+import Button from "./components/Button";
 
 function App() {
   return (
-    <div className="App">
-      <Calculator>
-      <Screen></Screen>
-            {/* <Buttons /> */}
-      </Calculator>
-    </div>
+    <Calculator>
+      <Screen />
+
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+      <Button></Button>
+    </Calculator>
   );
 }
 

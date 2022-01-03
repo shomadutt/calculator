@@ -1,13 +1,10 @@
 import React from 'react'
 import "./Calculator.css";
-import Screen from "./Screen"
 
-
-
-const calculator = () => {
+const calculator = ({children}) => {
     return (
         <div id="calculator">
-            
+            {children}
         </div>
     )
 }

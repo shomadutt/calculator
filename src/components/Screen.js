@@ -4,7 +4,7 @@ import "./Screen.css";
 const Screen = () => {
     return (
         <div id="screen">
-            
+           
         </div>
     )
 }
