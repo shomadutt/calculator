@@ -1,10 +1,14 @@
 import React from 'react'
 import './App.css'
+import { useState } from "react";
 
-const Button = (props) => {
+const Button = ({name, bkgdColor}) => {
+
     return (
-        <button className="button">
-            {props.name}
+        <button className="button" style={{backgroundColor: bkgdColor}}>
+       
+            {name}
+            
         </button>
     )
 }
