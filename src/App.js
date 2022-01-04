@@ -27,7 +27,7 @@ function App() {
       <Button name="=" />
       <Button name="-" />
 
-      <div id="clear">CLEAR</div>
+      <button id="clear">CLEAR</button>
     </Calculator>
   );
 }

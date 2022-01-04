@@ -3,9 +3,9 @@ import './App.css'
 
 const Button = (props) => {
     return (
-        <div className="button">
+        <button className="button">
             {props.name}
-        </div>
+        </button>
     )
 }
 
